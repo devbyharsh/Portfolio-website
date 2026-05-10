@@ -34,9 +34,9 @@ nav ul {
 }
 
 ul li {
-     cursor: pointer;
-    padding: 10px 15px; 
-    border-radius: 10px
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 10px
 }
 
 ul li:hover {
