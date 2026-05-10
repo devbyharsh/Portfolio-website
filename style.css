@@ -34,14 +34,15 @@ nav ul {
 }
 
 ul li {
-  cursor: pointer;
+     cursor: pointer;
+    padding: 10px 15px; 
+    border-radius: 10px
 }
 
 ul li:hover {
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
   background-color: #e2e2e2;
-  padding: 10px 15px;
   border-radius: 10px;
 }
 
