@@ -397,3 +397,44 @@ section {
 #section2 span {
   color: rgba(26, 28, 154, 1);
 }
+
+.section3{
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel{ 
+  width: 30%;
+  border: 1px solid rgba(76, 66, 66, 0.222);
+  background-color: #98979732;
+  backdrop-filter: blur(50x);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto ;
+}
+
+.carousel::-webkit-scrollbar{
+  display: none;
+}
+
+.groups {
+  padding: 20px;
+  display: flex;
+  gap: 1em;
+  animation: spin 5s infinite linear  ;
+  padding-right: 1em;
+
+}
+
+.groups img{
+  flex: 0 0 5em;
+  height: 80px;
+  width: 80px;
+}
+
+@keyframes spin {
+  from {translate: 0;}
+  to {translate: -90%;}
+}
