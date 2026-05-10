@@ -4,7 +4,7 @@ A clean, modern and responsive personal portfolio website
 built with HTML, CSS and JavaScript.
 
 ## 🌐 Live Demo
-[Click here to view](https://devbyharsh.github.io/portfolio-website)
+[Click here to view](https://devbyharsh.github.io/Portfolio-website/)
 
 ## ✨ Features
 - Clean and minimal white theme
@@ -32,7 +32,7 @@ built with HTML, CSS and JavaScript.
 ## 👨‍💻 Author
 **Harsh Tomar**
 - GitHub → [devbyharsh](https://github.com/devbyharsh)
-- Portfolio → [devbyharsh.github.io](https://devbyharsh.github.io/portfolio-website)
+- Portfolio → [devbyharsh.github.io](https://devbyharsh.github.io/Portfolio-website/)
 
 ## 📄 License
 Copyright © 2025 DevByHarsh
