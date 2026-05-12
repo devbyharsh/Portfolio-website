@@ -13,7 +13,7 @@
 
 body {
   overflow-x: hidden;
-  /* hide horizontal scroll! */
+
 }
 
 nav {
@@ -25,6 +25,7 @@ nav {
   width: 100%;
   background: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 nav ul {
@@ -55,7 +56,7 @@ ul li:hover {
   cursor: pointer;
 }
 
-section {
+#home {
   margin-bottom: 0;
   display: flex;
   min-height: auto;
@@ -451,4 +452,102 @@ section {
   to {
     transform: translateX(-100%);
   }
+}
+
+#portfolio {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+}
+
+#portfolio h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#portfolio .line {
+  font-size: 20px;
+  width: 700px;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 42px;
+}
+
+.project-card {
+  width: 100%;
+  height: auto;
+  border: #666;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.project-card img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.project-info {
+  padding: 16px;
+  text-align: left;
+
+}
+
+.project-info span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  margin-right: 0;
+}
+
+.project-info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.project-info p {
+  width: auto;
+  font-size: 20px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.casestudy-btn {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: none;
+  color: black;
+  font-weight: 600;
+  margin: 16px;
+}
+
+.moreBtn {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: none;
+  color: black;
+  font-weight: 600;
+  margin-top: 60px;
 }
