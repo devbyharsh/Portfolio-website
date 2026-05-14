@@ -490,7 +490,7 @@ ul li:hover {
   border-radius: 12px;
   border: 1px solid #eee;
   cursor: pointer;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .project-card img {
@@ -498,11 +498,11 @@ ul li:hover {
   object-fit: fill;
 }
 
-.project-card:hover {
+/* .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
-}
+} */
 
 .project-info {
   padding: 16px;
@@ -531,7 +531,7 @@ ul li:hover {
 }
 
 .casestudy-btn {
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   border: 1px solid black;
   border-radius: 4px;
@@ -541,8 +541,17 @@ ul li:hover {
   margin: 16px;
 }
 
+.casestudy-btn:hover {
+  transition: 0.3s;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .moreBtn {
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   border: 1px solid black;
   border-radius: 4px;
@@ -550,4 +559,32 @@ ul li:hover {
   color: black;
   font-weight: 600;
   margin-top: 60px;
+}
+
+.moreBtn:hover {
+  transition: 0.3s;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section4 {
+  background-color: rgb(0, 0, 0);
+  padding: 250px;
+    color: white;
+}
+
+.section4 h2 {
+  width: 650px;
+  font-size: 48px;
+}
+
+.section4 button {
+  background-color: rgba(73, 68, 77, 1);
+  padding: 24px 12px;
+  color: white;
+  border: none;
+  border-radius: 4px;
 }
