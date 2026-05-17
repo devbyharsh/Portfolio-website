@@ -713,52 +713,6 @@ button {
   color: white;
 }
 
-/* #testimonials {
-  padding: 80px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-
-#testimonials h2 {
-  color: rgba(19, 34, 56, 1);
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.subpara {
-  width: 800px;
-  text-align: center;
-  color: rgba(135, 144, 157, 1);
-  font-weight: 400;
-  font-size: 20px;
-  margin: 20px 0px 40px 0px;
-
-}
-
-#testimonials p {
-  width: 1200px;
-  color: rgba(43, 56, 76, 1);
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 30px;
-
-}
-
-#testimonials h3 {
-  font-weight: 500;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.who {
-  margin: 0px 0 0 0;
-  font-size: 20px;
-  font-weight: 300;
-} */
 
 #testimonials {
   padding: 80px;
@@ -855,4 +809,182 @@ button {
 
 .dot.active {
   background: black;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: rgba(105, 105, 105, 1);
+  color: white;
+  padding: 80px;
+}
+
+.address-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#contact h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.address-heading span {
+  width: 500px;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 35px;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+}
+
+.address-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.adress-card {
+  width: 50%;
+  display: flex;
+  background-color: white;
+  color: #000000;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.adress-card:hover {
+  transition: 0.5s;
+  transform: translateY(-3px);
+  box-shadow: -5px 0 0 #000000, 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.adress-card span {
+  color: rgba(66, 78, 96, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.adress-card p {
+  height: auto;
+  color: rgba(19, 34, 56, 1);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.adress-card img {
+  border-radius: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.contactDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+  gap: 50px;
+}
+
+
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.inputs input,
+.inputs textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  padding: 14px 0;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+}
+
+.inputs input::placeholder,
+.inputs textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.input-row {
+  display: flex;
+  gap: 30px;
+}
+
+.input-card button {
+  width: auto;
+  align-self: flex-start;
+  background-color: rgba(88, 88, 88, 1);
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+}
+
+footer {
+  background-color: #0d1117;
+  padding: 60px 80px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  color: #999;
+  transition: 0.3s;
+}
+
+.copyright {
+  color: #999;
+  font-size: 14px;
 }

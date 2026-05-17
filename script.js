@@ -6,7 +6,6 @@ let current = 0
 let touchstartX = 0;
 let touchendX = 0;
 
-
 function showSlide(index) {
     cards.forEach(card => {
         card.classList.remove('active');
@@ -51,9 +50,9 @@ slider.addEventListener('touchend', function (e) {
         current -= 1;
 
         if (current < 0) {
-            current = cards.length - 1; 
+            current = cards.length - 1;
         }
 
-        showSlide(current); 
+        showSlide(current);
     }
 })
