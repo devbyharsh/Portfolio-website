@@ -34,5 +34,9 @@ built with HTML, CSS and JavaScript.
 - GitHub → [devbyharsh](https://github.com/devbyharsh)
 - Portfolio → [devbyharsh.github.io](https://devbyharsh.github.io/Portfolio-website/)
 
+
+# Note 
+**This is the demo version of website**
+
 ## 📄 License
 Copyright © 2025 DevByHarsh
